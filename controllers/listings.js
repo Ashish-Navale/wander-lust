@@ -14,7 +14,7 @@ module.exports.showListing = async (req, res) => {
   let { id } = req.params;
   const listing = await Listing.findById(id)
     .populate({ path: "reviews", populate: { path: "author" } }) // ✅ also populate review owners
-    .populate("owner"); // ✅ populate listing owner
+    .populate("owner"); //  populate listing owner
 
   if (!listing) {
     req.flash("error", "Cannot find that listing");
@@ -68,7 +68,7 @@ module.exports.createListing = async (req, res) => {
       let { id } = req.params;
       let listing = await Listing.findById(id);
     
-      // ✅ Prevent unauthorized deletion
+      // Prevent unauthorized deletion
       if (!listing.owner.equals(req.user._id)) {
         req.flash("error", "You do not have permission to delete this listing");
         return res.redirect(`/listings/${id}`);

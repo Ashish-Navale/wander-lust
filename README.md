@@ -46,18 +46,37 @@ This project helped me strengthen my full-stack web development skills, includin
 
 ## 📁 Folder Structure
 
-'''
 wander-lust/
 │
-├── models/ # MongoDB models (User, Listing, etc.)
-├── routes/ # Application routes
-├── controllers/ # Route logic and controller functions
-├── public/ # Static files (CSS, images, JS)
-├── views/ # EJS templates for frontend rendering
-├── app.js # Main server file
-├── .env # Environment variables (excluded from GitHub)
-└── package.json # Dependencies and scripts
-'''
+├── models/
+│ ├── Listing.js
+│ ├── Review.js
+│ └── User.js
+│
+├── routes/
+│ ├── listings.js
+│ ├── reviews.js
+│ └── user.js
+│
+├── public/
+│ ├── css/
+│ │ └── style.css
+│ └── js/
+│ └── script.js
+│
+├── views/
+│ ├── layouts/
+│ │ └── boilerplate.ejs
+│ ├── listings/
+│ │ ├── index.ejs
+│ │ ├── new.ejs
+│ │ └── show.ejs
+│ ├── reviews/
+│ └── users/
+│
+├── app.js
+├── package.json
+└── README.md
 
-## 📁 Folder Structure
+
 

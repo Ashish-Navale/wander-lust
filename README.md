@@ -45,7 +45,7 @@ This project helped me strengthen my full-stack web development skills, includin
 ---
 
 ## 📁 Folder Structure
-
+```
 wander-lust/
 │
 ├── models/
@@ -77,6 +77,7 @@ wander-lust/
 ├── app.js
 ├── package.json
 └── README.md
+```
 
 
 

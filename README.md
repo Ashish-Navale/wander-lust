@@ -79,7 +79,7 @@ wander-lust/
 └── README.md
 ```
 
-🌍 Wanderlust – Live Project
+###🌍 Wanderlust – Live Project
 
 Explore the live deployed version of the Wanderlust application:
 

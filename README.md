@@ -79,5 +79,12 @@ wander-lust/
 └── README.md
 ```
 
+🌍 Wanderlust – Live Project
+
+Explore the live deployed version of the Wanderlust application:
+
+🔗 Live Demo: [Wanderlust Project](https://wander-lust-project-838y.onrender.com/)
+
+Wanderlust is a travel-stay booking web application where users can browse listings, view details, and manage their stays. Built using the MVC architecture and deployed using Render.
 
 
